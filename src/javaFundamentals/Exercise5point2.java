@@ -1,6 +1,6 @@
 package javaFundamentals;
 
-public class Sample5point2 {
+public class Exercise5point2 {
     public static void main(String[] args) {
         // Check if an argument is provided
         if (args.length == 0) {

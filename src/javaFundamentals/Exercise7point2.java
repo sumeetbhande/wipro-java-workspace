@@ -1,6 +1,6 @@
 package javaFundamentals;
 
-public class Sample7point2 {
+public class Exercise7point2 {
     // Instance variables (not initialized)
     byte myByte;
     short myShort;
@@ -23,7 +23,7 @@ public class Sample7point2 {
     }
 
     public static void main(String[] args) {
-    	Sample7point2 obj = new Sample7point2();
+    	Exercise7point2 obj = new Exercise7point2();
         obj.printDefaults();
     }
 }

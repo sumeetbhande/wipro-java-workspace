@@ -2,7 +2,7 @@ package javaFundamentals;
 
 //a java program to add two numbers passed via command-line
 
-public class Sample5 {
+public class Exercise5 {
     public static void main(String[] args) {
         // Check if exactly two arguments are passed
         if (args.length != 2) {

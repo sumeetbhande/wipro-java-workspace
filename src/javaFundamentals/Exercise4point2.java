@@ -4,7 +4,7 @@ package javaFundamentals;
 
 import java.util.Scanner; // keyword: import
 
-public class Sample4point2{ // keyword: public, class
+public class Exercise4point2{ // keyword: public, class
     public static void main(String[] args) { // keyword: static, void, String
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");

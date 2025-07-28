@@ -1,6 +1,6 @@
 package javaFundamentals;
 
-public class Sample3point2 {
+public class Exercise3point2 {
     public static void main(String[] args) {
         if (args.length > 0) {
             String name = args[0];

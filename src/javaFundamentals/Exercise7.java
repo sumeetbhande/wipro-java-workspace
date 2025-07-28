@@ -1,6 +1,6 @@
 package javaFundamentals;
 
-public class Sample7 {
+public class Exercise7 {
     public static void main(String[] args) {
         // Integer types
         byte myByte = 100;
