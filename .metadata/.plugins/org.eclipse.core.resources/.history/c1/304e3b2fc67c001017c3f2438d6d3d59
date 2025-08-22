@@ -1,0 +1,58 @@
+package data_driven;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.io.FileInputStream;
+
+public class DataDrivenTest {
+    public static void main(String[] args) {
+        try {
+            // Step 1: Load Excel file (.xlsx)
+            FileInputStream fis = new FileInputStream("src/test/resources/TestData.xlsx");
+            XSSFWorkbook workbook = new XSSFWorkbook(fis);
+            XSSFSheet sheet = workbook.getSheet("Sheet1");
+
+            // Step 2: Get total rows (row count is 0-based)
+            int rowCount = sheet.getLastRowNum();
+
+            // Step 3: Loop through rows (skip row 0 if it has headers)
+            for (int i = 1; i <= rowCount; i++) {
+                String username = sheet.getRow(i).getCell(0).getStringCellValue();
+                String password = sheet.getRow(i).getCell(1).getStringCellValue();
+
+                // Step 4: Launch browser for each user
+                WebDriver driver = new ChromeDriver();
+                driver.manage().window().maximize();
+                driver.get("https://practicetestautomation.com/practice-test-login/");
+
+                // Step 5: Send keys
+                driver.findElement(By.id("username")).sendKeys(username);
+                driver.findElement(By.id("password")).sendKeys(password);
+                driver.findElement(By.id("submit")).click();
+
+                // (Optional) add wait / verification
+                Thread.sleep(2000);
+
+                String currentUrl=driver.getCurrentUrl();
+                if(currentUrl.equals("https://practicetestautomation.com/logged-in-successfully/")){
+                    System.out.println("successfully login:"+username);
+                }else{
+                    System.out.println("login failed:"+username);
+                }
+
+                // Step 6: Close browser
+                driver.quit();
+            }
+
+            workbook.close();
+            fis.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}

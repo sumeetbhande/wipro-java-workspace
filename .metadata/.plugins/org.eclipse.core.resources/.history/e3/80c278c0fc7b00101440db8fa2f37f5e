@@ -1,0 +1,28 @@
+package com.example.form;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TabDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
+		
+		driver.get("https://www.selenium.dev/selenium/web/window_switching_tests/page_with_frame.html");
+		driver.findElement(By.xpath("//*[@id=\"a-link-that-opens-a-new-window\]"));
+		String w = driver.getWindowHandle();
+		Set<String> windows = driver.getWindowHandles();
+		for(String s : windows) {
+			driver.switchTo().window(s);
+			WebElement ele = driver.findElement(By.xpath("/html/body/div"));
+			System.out.println(ele.getText());
+		}
+	}
+
+}

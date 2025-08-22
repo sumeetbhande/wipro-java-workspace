@@ -1,0 +1,28 @@
+package com.example.form;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FormDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
+		
+		driver.get("https://www.selenium.dev/selenium/web/window_switching_tests/page_with_frame.html");
+		WebElement email = driver.findElement(By.xpath("//*[@id=\"email\"]"));
+		email.sendKeys("alex@gmail.com");
+		WebElement age = driver.findElement(By.xpath("//*[@id=\"age\"]"));
+		age.sendKeys("20");
+		driver.findElement(By.xpath("//*[@id=\"submitButton\"]")).click();
+		String response = driver.findElement(By.xpath("//*[@id=\"greeting\""));
+		System.out.println("Response : " + response);
+	}
+
+}

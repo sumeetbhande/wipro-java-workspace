@@ -1,0 +1,10 @@
+<test name="RegressionSuite"> 
+<groups> 
+<run> 
+<include name="regression"/> 
+</run> 
+</groups> 
+<classes> 
+<class name="tests.SampleTest"/> 
+</classes> 
+</test>
