@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T18:02:15 IST" name="Banking Suite" finished-at="2025-09-08T18:03:51 IST" duration-ms="96683">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T18:02:15 IST" name="Login Module" finished-at="2025-09-08T18:02:59 IST" duration-ms="44268">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:16 IST" name="setUp" finished-at="2025-09-08T18:02:25 IST" duration-ms="8568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c08c787]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:25 IST" name="validateLogin" data-provider="loginData" finished-at="2025-09-08T18:02:28 IST" duration-ms="3599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:28 IST" name="tearDown" finished-at="2025-09-08T18:02:29 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:29 IST" name="setUp" finished-at="2025-09-08T18:02:33 IST" duration-ms="4131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c08c787]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:33 IST" name="validateLogin" data-provider="loginData" finished-at="2025-09-08T18:02:37 IST" duration-ms="3518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:37 IST" name="tearDown" finished-at="2025-09-08T18:02:37 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:37 IST" name="setUp" finished-at="2025-09-08T18:02:40 IST" duration-ms="3140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c08c787]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidUsernameValidPassword()[pri:2, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:40 IST" name="testInvalidUsernameValidPassword" description="Login with invalid username and valid password" finished-at="2025-09-08T18:02:44 IST" duration-ms="3626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:44 IST" name="tearDown" finished-at="2025-09-08T18:02:44 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:44 IST" name="setUp" finished-at="2025-09-08T18:02:49 IST" duration-ms="4865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c08c787]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidUsernameInvalidPassword()[pri:3, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:49 IST" name="testValidUsernameInvalidPassword" description="Login with valid username and invalid password" finished-at="2025-09-08T18:02:53 IST" duration-ms="3601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:53 IST" name="tearDown" finished-at="2025-09-08T18:02:53 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:53 IST" name="setUp" finished-at="2025-09-08T18:02:56 IST" duration-ms="3014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c08c787]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyCredentials()[pri:4, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:56 IST" name="testEmptyCredentials" description="Login with empty credentials" finished-at="2025-09-08T18:02:59 IST" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@7eac9008]" started-at="2025-09-08T18:02:59 IST" name="tearDown" finished-at="2025-09-08T18:02:59 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Login Module -->
+    <test started-at="2025-09-08T18:02:59 IST" name="Fund Transfer Module" finished-at="2025-09-08T18:03:12 IST" duration-ms="12636">
+      <class name="tests.FundTransferTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.FundTransferTests@762ef0ea]" started-at="2025-09-08T18:02:59 IST" name="setUp" finished-at="2025-09-08T18:03:02 IST" duration-ms="3312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@67f591c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="transferFundsAndValidateSuccess()[pri:0, instance:tests.FundTransferTests@762ef0ea]" started-at="2025-09-08T18:03:02 IST" name="transferFundsAndValidateSuccess" finished-at="2025-09-08T18:03:11 IST" duration-ms="8773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transferFundsAndValidateSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FundTransferTests@762ef0ea]" started-at="2025-09-08T18:03:11 IST" name="tearDown" finished-at="2025-09-08T18:03:12 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FundTransferTests -->
+    </test> <!-- Fund Transfer Module -->
+    <test started-at="2025-09-08T18:03:12 IST" name="Loan Module" finished-at="2025-09-08T18:03:40 IST" duration-ms="28051">
+      <class name="tests.EmiTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EmiTests@1ebd319f]" started-at="2025-09-08T18:03:36 IST" name="setUp" finished-at="2025-09-08T18:03:39 IST" duration-ms="3609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@284c4f02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateEmiFor12Months()[pri:0, instance:tests.EmiTests@1ebd319f]" started-at="2025-09-08T18:03:39 IST" name="validateEmiFor12Months" finished-at="2025-09-08T18:03:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmiFor12Months -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmiTests@1ebd319f]" started-at="2025-09-08T18:03:39 IST" name="tearDown" finished-at="2025-09-08T18:03:40 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EmiTests -->
+      <class name="tests.LoanTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.LoanTests@7b02881e]" started-at="2025-09-08T18:03:12 IST" name="setUp" finished-at="2025-09-08T18:03:15 IST" duration-ms="3176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@284c4f02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="approvePersonalLoanWithValidDetails()[pri:0, instance:tests.LoanTests@7b02881e]" started-at="2025-09-08T18:03:15 IST" name="approvePersonalLoanWithValidDetails" finished-at="2025-09-08T18:03:23 IST" duration-ms="8526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approvePersonalLoanWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoanTests@7b02881e]" started-at="2025-09-08T18:03:23 IST" name="tearDown" finished-at="2025-09-08T18:03:24 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.LoanTests@7b02881e]" started-at="2025-09-08T18:03:24 IST" name="setUp" finished-at="2025-09-08T18:03:27 IST" duration-ms="2887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@284c4f02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rejectHomeLoanWhenSalaryBelowThreshold()[pri:0, instance:tests.LoanTests@7b02881e]" started-at="2025-09-08T18:03:27 IST" name="rejectHomeLoanWhenSalaryBelowThreshold" finished-at="2025-09-08T18:03:35 IST" duration-ms="8537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectHomeLoanWhenSalaryBelowThreshold -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoanTests@7b02881e]" started-at="2025-09-08T18:03:35 IST" name="tearDown" finished-at="2025-09-08T18:03:36 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoanTests -->
+    </test> <!-- Loan Module -->
+    <test started-at="2025-09-08T18:03:40 IST" name="Transaction History Module" finished-at="2025-09-08T18:03:51 IST" duration-ms="11607">
+      <class name="tests.TransactionHistoryTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.TransactionHistoryTests@2898ac89]" started-at="2025-09-08T18:03:40 IST" name="setUp" finished-at="2025-09-08T18:03:43 IST" duration-ms="3587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@709d6de5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTransactionHistoryShowsEntries()[pri:0, instance:tests.TransactionHistoryTests@2898ac89]" started-at="2025-09-08T18:03:43 IST" name="verifyTransactionHistoryShowsEntries" finished-at="2025-09-08T18:03:51 IST" duration-ms="7630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionHistoryShowsEntries -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransactionHistoryTests@2898ac89]" started-at="2025-09-08T18:03:51 IST" name="tearDown" finished-at="2025-09-08T18:03:51 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TransactionHistoryTests -->
+    </test> <!-- Transaction History Module -->
+  </suite> <!-- Banking Suite -->
+</testng-results>
